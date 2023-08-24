@@ -83,7 +83,7 @@ const App = () => {
         {isWhatsAppLinkActive ? (
           <WhatsAppButton 
           message={
-            `Olá Larissa! Aqui está a minha lista de compras e o valor total:\n` + 
+            `Olá Cuca Sagrada! Aqui está a minha lista de compras e o valor total:\n` + 
             `${cart.map((item) => `${item.name} - ${item.color} - ${item.size} - ${item.quantity} - R$${item.price * item.quantity}`).join('\n')}` + 
             `\nValor Total: R$${totalPrice}`
           } 
