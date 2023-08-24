@@ -4,11 +4,11 @@ import PropTypes from 'prop-types';
 const ProductList = ({ addToCart }) => {
   const products = [
     {
-      "name": "VESTIDO COLADO MANGA FLARE FENDA",
-      "color": ["Preto", "Vermelho"],
-      "size": ["PP", "P", "M", "G"],
-      "price": 55.90,
-      "image": "https://17741.cdn.simplo7.net/static/17741/sku/vestido-vestido-colado-manga-flare-fenda-1690670625878.jpeg",
+      "name": "Abacaxi ao Leite Condensado",
+      "color": ["Preto"],
+      "size": ["P"],
+      "price": 17.00,
+      "image": "./src/images/CarouselCaption.jpg",
       "quantity": 0
     },
     {

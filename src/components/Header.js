@@ -12,11 +12,11 @@ const Header = ({ cart, setShow }) => {
   return (
     <header className="bg-dark text-white">
       <div className="container d-flex justify-content-between align-items-center py-3">
-        <div className="company-name h3 mb-0">Purchase Atacado</div>
-        <p className="mb-0">Mínimo 10 peças no atacado!</p>
-        <p className="mb-0">Entrega 24h</p>
-        <p className="mb-0">Entrega por motoboy em SP capital - FRETE FIXO R$20</p>
-        <p className="mb-0">Entregamos em excursões de SP capital</p>
+        <div className="company-name h3 mb-0">Cuca Sagrada</div>
+        <p className="mb-0">Não temos Tele-Entrega!</p>
+        <p className="mb-0">Retirada no Local</p>
+        <p className="mb-0">Faça seu pedido com um dia de antecedência</p>
+        <p className="mb-0">Pagamento Dinheiro ou via PIX chave: 51989892020</p>
         <div className="cart text-end">
           <span className="cart-count me-3">Você já selecionou: {totalQuantity} {totalQuantity === 1 ? 'item' : 'itens'}.</span>
           <span className="cart-total">Valor Total: R${total.toFixed(2)}</span>
