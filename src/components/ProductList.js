@@ -8,113 +8,171 @@ const ProductList = ({ addToCart }) => {
       "color": ["Preto"],
       "size": ["P"],
       "price": 17.00,
-      "image": "./src/images/CarouselCaption.jpg",
+      "image": "./src/images/cuca.jpg",
       "quantity": 0
     },
     {
-      "name": "MACACÃO VIRGÍNIA TOP SUPLEX",
+      "name": "Abacaxi ao Leite Condensado",
       "color": ["Preto"],
-      "size": ["PP", "P", "M", "G"],
-      "price": 55.90,
+      "size": ["M"],
+      "price": 23.00,
       "image": "https://17741.cdn.simplo7.net/static/17741/sku/conjuntos-macacao-decotado-manga-longa-suplex-1690477910840.png",
       "quantity": 0
     },
     {
-      "name": "VESTIDO LÃZINHA OMBRO A OMBRO",
+      "name": "Abacaxi ao Leite Condensado",
       "color": ["Cinza", "Preto"],
-      "size": ["PP", "P", "M", "G", "GG"],
-      "price": 55.90,
+      "size": ["G"],
+      "price": 29.00,
       "image": "https://17741.cdn.simplo7.net/static/17741/sku/vestido-vestido-lazinha-ombro-a-ombro-1689086492234.jpeg",
       "quantity": 0
     },
     {
-      "name": "VESTIDO MANGA ÚNICA COM FENDA GOLA DIAGONAL",
+      "name": "Chocolate",
       "color": ["Preto"],
-      "size": ["PP", "P", "M", "G", "GG"],
-      "price": 44.50,
+      "size": ["P"],
+      "price": 17.00,
       "image": "https://17741.cdn.simplo7.net/static/17741/sku/vestido-vestido-manga-unica-com-fenda-gola-diagonal-1689086420243.jpeg",
       "quantity": 0
     },
     {
-      "name": "CONJUNTO TOP MANGA LONGA + SAIA COM FENDA",
+      "name": "Chocolate",
       "color": ["Preto", "Branco", "Vermelho", "Nude"],
-      "size": ["PP", "P", "M", "G", "GG"],
+      "size": ["M"],
       "price": 52.40,
       "image": "https://17741.cdn.simplo7.net/static/17741/sku/vestido-conjunto-saia-com-fenda-top-manga-longa-1689085146332.png",
       "quantity": 0
     },
     {
-      "name": "CONJUNTO PAETÊ TOP CROPPED RETO ALCINHA + SAIA",
+      "name": "Chocolate",
       "color": ["Preto"],
-      "size": ["PP", "P", "M", "G"],
-      "price": 44.90,
+      "size": ["G"],
+      "price": 29.00,
       "image": "https://17741.cdn.simplo7.net/static/17741/sku/conjuntos-conjunto-paete-top-cropped-reto-alcinha-saia-1689086350659.jpeg",
       "quantity": 0
     },
     {
-      "name": "CONJUNTO LÃZINHA TOP E SAIA FENDA",
+      "name": "Coco ao Leite Condensado",
       "color": ["Preto", "Cinza"],
-      "size": ["PP", "P", "M", "G", "GG"],
-      "price": 55.00,
+      "size": ["P"],
+      "price": 17.00,
       "image": "https://17741.cdn.simplo7.net/static/17741/sku/conjuntos-plus-conjunto-lazinha-top-cropped-gola-quadrada-e-saia-fenda-1689096753147.png",
       "quantity": 0
     },
     {
-      "name": "MACACÃO FECHADO MANGA COMPRIDA TUMBLR",
+      "name": "Coco ao Leite Condensado",
       "color": ["Preto"],
-      "size": ["PP", "P", "M", "G", "GG"],
-      "price": 59.90,
+      "size": ["M"],
+      "price": 23.00,
       "image": "https://17741.cdn.simplo7.net/static/17741/sku/conjuntos-macacao-fechado-manga-comprida-tumblr-p-1682695739878.jpeg",
       "quantity": 0
     },
     {
-      "name": "Vestido Lãzinha Manga Longa Cacharrel",
+      "name": "Coco ao Leite Condensado",
       "color": ["Preto", "Cinza"],
-      "size": ["PP", "P", "M", "G"],
-      "price": 40.00,
+      "size": ["G"],
+      "price": 29.00,
       "image": "https://17741.cdn.simplo7.net/static/17741/sku/vestido-vestido-lazinha-ombro-a-ombro-manga-longa-cacharrel-1686934895859.png",
       "quantity": 0
     },
     {
-      "name": "VESTIDO LONGO FENDA COM ARGOLA",
+      "name": "Doce de Leite",
       "color": ["Nude", "Preto", "Branco", "Vermelho"],
-      "size": ["PP", "P", "M", "G", "GG"],
-      "price": 44.50,
+      "size": ["P"],
+      "price": 17.00,
       "image": "https://17741.cdn.simplo7.net/static/17741/sku/vestido-vestido-longo-fenda-com-argola-1690822101969.png",
       "quantity": 0
     },
     {
-      "name": "VESTIDO LONGO TOP + SAIA FENDA",
+      "name": "Doce de Leite",
       "color": ["Preto", "Branco", "Vermelho", "Nude"],
-      "size": ["PP", "P", "M", "G", "GG"],
-      "price": 37.00,
+      "size": ["M",],
+      "price": 23.00,
       "image": "https://17741.cdn.simplo7.net/static/17741/sku/vestido-vestido-longo-top-saia-fenda-1690480891323.jpg",
       "quantity": 0
     },
     {
-      "name": "Biquini fio frente única",
+      "name": "Doce de Leite",
       "color": ["Preto", "azul", "pink", "laranja", "nude"],
-      "size": ["PP", "P", "M", "G"],
-      "price": 25.00,
+      "size": ["G"],
+      "price": 29.00,
       "image": "https://17741.cdn.simplo7.net/static/17741/sku/biquinis-biquini-fio-frente-unica-1666295902446.jpeg",
       "quantity": 0
     },
     {
-      "name": "BIQUÍNI FIO COM ARGOLA",
+      "name": "Goiabada",
       "color": ["Preto", "Laranja", "Pink", "Azul"],
-      "size": ["PP", "P", "M", "G"],
-      "price": 25.00,
+      "size": ["P"],
+      "price": 17.00,
       "image": "https://17741.cdn.simplo7.net/static/17741/sku/biquinis-biquini-fio-com-argola-1666286988971.jpeg",
       "quantity": 0
     },
     {
-      "name": "Biquini Cortininha De Amarrar",
+      "name": "Goiabada",
       "color": ["Pink", "Rosa-Bebê", "Preto", "Azul", "Laranja"],
-      "size": ["PP", "P", "M", "G"],
-      "price": 25.00,
+      "size": ["M"],
+      "price": 23.00,
       "image": "https://17741.cdn.simplo7.net/static/17741/sku/biquinis-biquini-cortininha-calcinha-de-amarrar-fio-1691423457455.jpeg",
       "quantity": 0
-    }
+    },
+    {
+      "name": "Goiabada",
+      "color": ["Pink", "Rosa-Bebê", "Preto", "Azul", "Laranja"],
+      "size": ["G"],
+      "price": 29.00,
+      "image": "https://17741.cdn.simplo7.net/static/17741/sku/biquinis-biquini-cortininha-calcinha-de-amarrar-fio-1691423457455.jpeg",
+      "quantity": 0
+    },
+    {
+      "name": "Uva (Sem Semente)",
+      "color": ["Pink", "Rosa-Bebê", "Preto", "Azul", "Laranja"],
+      "size": ["P"],
+      "price": 17.00,
+      "image": "https://17741.cdn.simplo7.net/static/17741/sku/biquinis-biquini-cortininha-calcinha-de-amarrar-fio-1691423457455.jpeg",
+      "quantity": 0
+    },
+    {
+      "name": "Uva (Sem Semente)",
+      "color": ["Pink", "Rosa-Bebê", "Preto", "Azul", "Laranja"],
+      "size": ["M"],
+      "price": 23.00,
+      "image": "https://17741.cdn.simplo7.net/static/17741/sku/biquinis-biquini-cortininha-calcinha-de-amarrar-fio-1691423457455.jpeg",
+      "quantity": 0
+    },
+    {
+      "name": "Uva (Sem Semente)",
+      "color": ["Pink", "Rosa-Bebê", "Preto", "Azul", "Laranja"],
+      "size": ["G"],
+      "price": 29.00,
+      "image": "https://17741.cdn.simplo7.net/static/17741/sku/biquinis-biquini-cortininha-calcinha-de-amarrar-fio-1691423457455.jpeg",
+      "quantity": 0
+    },
+    {
+      "name": "Tradicional",
+      "color": ["Pink", "Rosa-Bebê", "Preto", "Azul", "Laranja"],
+      "size": ["P"],
+      "price": 17.00,
+      "image": "https://17741.cdn.simplo7.net/static/17741/sku/biquinis-biquini-cortininha-calcinha-de-amarrar-fio-1691423457455.jpeg",
+      "quantity": 0
+    },
+    {
+      "name": "Tradicional",
+      "color": ["Pink", "Rosa-Bebê", "Preto", "Azul", "Laranja"],
+      "size": ["M"],
+      "price": 23.00,
+      "image": "https://17741.cdn.simplo7.net/static/17741/sku/biquinis-biquini-cortininha-calcinha-de-amarrar-fio-1691423457455.jpeg",
+      "quantity": 0
+    },
+    {
+      "name": "Tradicional",
+      "color": ["Pink", "Rosa-Bebê", "Preto", "Azul", "Laranja"],
+      "size": ["G"],
+      "price": 29.00,
+      "image": "https://17741.cdn.simplo7.net/static/17741/sku/biquinis-biquini-cortininha-calcinha-de-amarrar-fio-1691423457455.jpeg",
+      "quantity": 0
+    },
+    
+    
   ]
   ;
   const [quantity, setQuantity] = useState({});
