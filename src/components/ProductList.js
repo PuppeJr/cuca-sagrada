@@ -6,7 +6,7 @@ const ProductList = ({ addToCart }) => {
     {
       "name": "Abacaxi ao Leite Condensado",
       "color": ["Preto"],
-      "size": ["P"],
+      "size": ["Pequeno"],
       "price": 17.00,
       "image": "./src/images/cuca.jpg",
       "quantity": 0
@@ -16,7 +16,7 @@ const ProductList = ({ addToCart }) => {
       "color": ["Preto"],
       "size": ["M"],
       "price": 23.00,
-      "image": "https://17741.cdn.simplo7.net/static/17741/sku/conjuntos-macacao-decotado-manga-longa-suplex-1690477910840.png",
+      "image": "./src/images/cuca.jpg",
       "quantity": 0
     },
     {
@@ -24,7 +24,7 @@ const ProductList = ({ addToCart }) => {
       "color": ["Cinza", "Preto"],
       "size": ["G"],
       "price": 29.00,
-      "image": "https://17741.cdn.simplo7.net/static/17741/sku/vestido-vestido-lazinha-ombro-a-ombro-1689086492234.jpeg",
+      "image": "./src/images/cuca.jpg",
       "quantity": 0
     },
     {
@@ -32,7 +32,7 @@ const ProductList = ({ addToCart }) => {
       "color": ["Preto"],
       "size": ["P"],
       "price": 17.00,
-      "image": "https://17741.cdn.simplo7.net/static/17741/sku/vestido-vestido-manga-unica-com-fenda-gola-diagonal-1689086420243.jpeg",
+      "image": "./src/images/cuca.jpg",
       "quantity": 0
     },
     {
@@ -40,7 +40,7 @@ const ProductList = ({ addToCart }) => {
       "color": ["Preto", "Branco", "Vermelho", "Nude"],
       "size": ["M"],
       "price": 52.40,
-      "image": "https://17741.cdn.simplo7.net/static/17741/sku/vestido-conjunto-saia-com-fenda-top-manga-longa-1689085146332.png",
+      "image": "./src/images/cuca.jpg",
       "quantity": 0
     },
     {
@@ -48,7 +48,7 @@ const ProductList = ({ addToCart }) => {
       "color": ["Preto"],
       "size": ["G"],
       "price": 29.00,
-      "image": "https://17741.cdn.simplo7.net/static/17741/sku/conjuntos-conjunto-paete-top-cropped-reto-alcinha-saia-1689086350659.jpeg",
+      "image": "./src/images/cuca.jpg",
       "quantity": 0
     },
     {
@@ -56,7 +56,7 @@ const ProductList = ({ addToCart }) => {
       "color": ["Preto", "Cinza"],
       "size": ["P"],
       "price": 17.00,
-      "image": "https://17741.cdn.simplo7.net/static/17741/sku/conjuntos-plus-conjunto-lazinha-top-cropped-gola-quadrada-e-saia-fenda-1689096753147.png",
+      "image": "./src/images/cuca.jpg",
       "quantity": 0
     },
     {
@@ -64,7 +64,7 @@ const ProductList = ({ addToCart }) => {
       "color": ["Preto"],
       "size": ["M"],
       "price": 23.00,
-      "image": "https://17741.cdn.simplo7.net/static/17741/sku/conjuntos-macacao-fechado-manga-comprida-tumblr-p-1682695739878.jpeg",
+      "image": "./src/images/cuca.jpg",
       "quantity": 0
     },
     {
@@ -72,7 +72,7 @@ const ProductList = ({ addToCart }) => {
       "color": ["Preto", "Cinza"],
       "size": ["G"],
       "price": 29.00,
-      "image": "https://17741.cdn.simplo7.net/static/17741/sku/vestido-vestido-lazinha-ombro-a-ombro-manga-longa-cacharrel-1686934895859.png",
+      "image": "./src/images/cuca.jpg",
       "quantity": 0
     },
     {
@@ -80,7 +80,7 @@ const ProductList = ({ addToCart }) => {
       "color": ["Nude", "Preto", "Branco", "Vermelho"],
       "size": ["P"],
       "price": 17.00,
-      "image": "https://17741.cdn.simplo7.net/static/17741/sku/vestido-vestido-longo-fenda-com-argola-1690822101969.png",
+      "image": "./src/images/cuca.jpg",
       "quantity": 0
     },
     {
@@ -88,7 +88,7 @@ const ProductList = ({ addToCart }) => {
       "color": ["Preto", "Branco", "Vermelho", "Nude"],
       "size": ["M",],
       "price": 23.00,
-      "image": "https://17741.cdn.simplo7.net/static/17741/sku/vestido-vestido-longo-top-saia-fenda-1690480891323.jpg",
+      "image": "./src/images/cuca.jpg",
       "quantity": 0
     },
     {
@@ -96,7 +96,7 @@ const ProductList = ({ addToCart }) => {
       "color": ["Preto", "azul", "pink", "laranja", "nude"],
       "size": ["G"],
       "price": 29.00,
-      "image": "https://17741.cdn.simplo7.net/static/17741/sku/biquinis-biquini-fio-frente-unica-1666295902446.jpeg",
+      "image": "./src/images/cuca.jpg",
       "quantity": 0
     },
     {
@@ -104,7 +104,7 @@ const ProductList = ({ addToCart }) => {
       "color": ["Preto", "Laranja", "Pink", "Azul"],
       "size": ["P"],
       "price": 17.00,
-      "image": "https://17741.cdn.simplo7.net/static/17741/sku/biquinis-biquini-fio-com-argola-1666286988971.jpeg",
+      "image": "./src/images/cuca.jpg",
       "quantity": 0
     },
     {
@@ -112,7 +112,7 @@ const ProductList = ({ addToCart }) => {
       "color": ["Pink", "Rosa-Bebê", "Preto", "Azul", "Laranja"],
       "size": ["M"],
       "price": 23.00,
-      "image": "https://17741.cdn.simplo7.net/static/17741/sku/biquinis-biquini-cortininha-calcinha-de-amarrar-fio-1691423457455.jpeg",
+      "image": "./src/images/cuca.jpg",
       "quantity": 0
     },
     {
@@ -120,7 +120,7 @@ const ProductList = ({ addToCart }) => {
       "color": ["Pink", "Rosa-Bebê", "Preto", "Azul", "Laranja"],
       "size": ["G"],
       "price": 29.00,
-      "image": "https://17741.cdn.simplo7.net/static/17741/sku/biquinis-biquini-cortininha-calcinha-de-amarrar-fio-1691423457455.jpeg",
+      "image": "./src/images/cuca.jpg",
       "quantity": 0
     },
     {
@@ -128,7 +128,7 @@ const ProductList = ({ addToCart }) => {
       "color": ["Pink", "Rosa-Bebê", "Preto", "Azul", "Laranja"],
       "size": ["P"],
       "price": 17.00,
-      "image": "https://17741.cdn.simplo7.net/static/17741/sku/biquinis-biquini-cortininha-calcinha-de-amarrar-fio-1691423457455.jpeg",
+      "image": "./src/images/cuca.jpg",
       "quantity": 0
     },
     {
@@ -136,7 +136,7 @@ const ProductList = ({ addToCart }) => {
       "color": ["Pink", "Rosa-Bebê", "Preto", "Azul", "Laranja"],
       "size": ["M"],
       "price": 23.00,
-      "image": "https://17741.cdn.simplo7.net/static/17741/sku/biquinis-biquini-cortininha-calcinha-de-amarrar-fio-1691423457455.jpeg",
+      "image": "./src/images/cuca.jpg",
       "quantity": 0
     },
     {
@@ -144,7 +144,7 @@ const ProductList = ({ addToCart }) => {
       "color": ["Pink", "Rosa-Bebê", "Preto", "Azul", "Laranja"],
       "size": ["G"],
       "price": 29.00,
-      "image": "https://17741.cdn.simplo7.net/static/17741/sku/biquinis-biquini-cortininha-calcinha-de-amarrar-fio-1691423457455.jpeg",
+      "image": "./src/images/cuca.jpg",
       "quantity": 0
     },
     {
@@ -152,7 +152,7 @@ const ProductList = ({ addToCart }) => {
       "color": ["Pink", "Rosa-Bebê", "Preto", "Azul", "Laranja"],
       "size": ["P"],
       "price": 17.00,
-      "image": "https://17741.cdn.simplo7.net/static/17741/sku/biquinis-biquini-cortininha-calcinha-de-amarrar-fio-1691423457455.jpeg",
+      "image": "./src/images/cuca.jpg",
       "quantity": 0
     },
     {
@@ -160,7 +160,7 @@ const ProductList = ({ addToCart }) => {
       "color": ["Pink", "Rosa-Bebê", "Preto", "Azul", "Laranja"],
       "size": ["M"],
       "price": 23.00,
-      "image": "https://17741.cdn.simplo7.net/static/17741/sku/biquinis-biquini-cortininha-calcinha-de-amarrar-fio-1691423457455.jpeg",
+      "image": "./src/images/cuca.jpg",
       "quantity": 0
     },
     {
@@ -168,7 +168,7 @@ const ProductList = ({ addToCart }) => {
       "color": ["Pink", "Rosa-Bebê", "Preto", "Azul", "Laranja"],
       "size": ["G"],
       "price": 29.00,
-      "image": "https://17741.cdn.simplo7.net/static/17741/sku/biquinis-biquini-cortininha-calcinha-de-amarrar-fio-1691423457455.jpeg",
+      "image": "./src/images/cuca.jpg",
       "quantity": 0
     },
     

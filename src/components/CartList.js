@@ -22,8 +22,8 @@ const CartList = ({ cart, deleteItem, editQuantity }) => {
   return (
     <div className="cart-list container my-4">
       {cart.map((product) => (
-        <div className="cart-item row py-2" key={`${product.name}-${product.color}-${product.size}`}>
-          <div className="col">{product.name} - {product.color} - {product.size}</div>
+        <div className="cart-item row py-2" key={`${product.name}-${product.size}`}>
+          <div className="col">{product.name} -{product.size}</div>
           <div className="col-auto">
             {/* Campo de entrada para editar a quantidade do item */}
             <input 

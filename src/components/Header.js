@@ -12,7 +12,7 @@ const Header = ({ cart, setShow }) => {
   return (
     <header className="bg-dark text-white">
       <div className="container d-flex justify-content-between align-items-center py-3">
-        <div className="company-name h3 mb-0">Cuca Sagrada</div>
+        <div className="company-name h3 mb-0">Cuca Sagrada </div>
         <p className="mb-0">Não temos Tele-Entrega!</p>
         <p className="mb-0">Retirada no Local</p>
         <p className="mb-0">Faça seu pedido com um dia de antecedência</p>
