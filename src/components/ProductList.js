@@ -1,207 +1,49 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
+import image1 from '../images/cuca.jpg';
+import image2 from '../images/cuca.jpg';
+import image3 from '../images/cuca.jpg';
+import image4 from '../images/cuca.jpg';
 
 
 const ProductList = ({ addToCart }) => {
   const products = [
-    {
-      "name": "Abacaxi ao Leite Condensado",
-      "color": ["Preto"],
-      "size": ["Pequeno"],
-      "price": 17.00,
-      "image": "./src/images/cuca.jpg",
-      "quantity": 0
-    },
-    {
-      "name": "Abacaxi ao Leite Condensado",
-      "color": ["Preto"],
-      "size": ["M"],
-      "price": 23.00,
-      "image": "./src/images/cuca.jpg",
-      "quantity": 0
-    },
-    {
-      "name": "Abacaxi ao Leite Condensado",
-      "color": ["Cinza", "Preto"],
-      "size": ["G"],
-      "price": 29.00,
-      "image": "./src/images/cuca.jpg",
-      "quantity": 0
-    },
-    {
-      "name": "Chocolate",
-      "color": ["Preto"],
-      "size": ["P"],
-      "price": 17.00,
-      "image": "./src/images/cuca.jpg",
-      "quantity": 0
-    },
-    {
-      "name": "Chocolate",
-      "color": ["Preto", "Branco", "Vermelho", "Nude"],
-      "size": ["M"],
-      "price": 52.40,
-      "image": "./src/images/cuca.jpg",
-      "quantity": 0
-    },
-    {
-      "name": "Chocolate",
-      "color": ["Preto"],
-      "size": ["G"],
-      "price": 29.00,
-      "image": "./src/images/cuca.jpg",
-      "quantity": 0
-    },
-    {
-      "name": "Coco ao Leite Condensado",
-      "color": ["Preto", "Cinza"],
-      "size": ["P"],
-      "price": 17.00,
-      "image": "./src/images/cuca.jpg",
-      "quantity": 0
-    },
-    {
-      "name": "Coco ao Leite Condensado",
-      "color": ["Preto"],
-      "size": ["M"],
-      "price": 23.00,
-      "image": "./src/images/cuca.jpg",
-      "quantity": 0
-    },
-    {
-      "name": "Coco ao Leite Condensado",
-      "color": ["Preto", "Cinza"],
-      "size": ["G"],
-      "price": 29.00,
-      "image": "./src/images/cuca.jpg",
-      "quantity": 0
-    },
-    {
-      "name": "Doce de Leite",
-      "color": ["Nude", "Preto", "Branco", "Vermelho"],
-      "size": ["P"],
-      "price": 17.00,
-      "image": "./src/images/cuca.jpg",
-      "quantity": 0
-    },
-    {
-      "name": "Doce de Leite",
-      "color": ["Preto", "Branco", "Vermelho", "Nude"],
-      "size": ["M",],
-      "price": 23.00,
-      "image": "./src/images/cuca.jpg",
-      "quantity": 0
-    },
-    {
-      "name": "Doce de Leite",
-      "color": ["Preto", "azul", "pink", "laranja", "nude"],
-      "size": ["G"],
-      "price": 29.00,
-      "image": "./src/images/cuca.jpg",
-      "quantity": 0
-    },
-    {
-      "name": "Goiabada",
-      "color": ["Preto", "Laranja", "Pink", "Azul"],
-      "size": ["P"],
-      "price": 17.00,
-      "image": "./src/images/cuca.jpg",
-      "quantity": 0
-    },
-    {
-      "name": "Goiabada",
-      "color": ["Pink", "Rosa-Bebê", "Preto", "Azul", "Laranja"],
-      "size": ["M"],
-      "price": 23.00,
-      "image": "./src/images/cuca.jpg",
-      "quantity": 0
-    },
-    {
-      "name": "Goiabada",
-      "color": ["Pink", "Rosa-Bebê", "Preto", "Azul", "Laranja"],
-      "size": ["G"],
-      "price": 29.00,
-      "image": "./src/images/cuca.jpg",
-      "quantity": 0
-    },
-    {
-      "name": "Uva (Sem Semente)",
-      "color": ["Pink", "Rosa-Bebê", "Preto", "Azul", "Laranja"],
-      "size": ["P"],
-      "price": 17.00,
-      "image": "./src/images/cuca.jpg",
-      "quantity": 0
-    },
-    {
-      "name": "Uva (Sem Semente)",
-      "color": ["Pink", "Rosa-Bebê", "Preto", "Azul", "Laranja"],
-      "size": ["M"],
-      "price": 23.00,
-      "image": "./src/images/cuca.jpg",
-      "quantity": 0
-    },
-    {
-      "name": "Uva (Sem Semente)",
-      "color": ["Pink", "Rosa-Bebê", "Preto", "Azul", "Laranja"],
-      "size": ["G"],
-      "price": 29.00,
-      "image": "./src/images/cuca.jpg",
-      "quantity": 0
-    },
-    {
-      "name": "Tradicional",
-      "color": ["Pink", "Rosa-Bebê", "Preto", "Azul", "Laranja"],
-      "size": ["P"],
-      "price": 17.00,
-      "image": "./src/images/cuca.jpg",
-      "quantity": 0
-    },
-    {
-      "name": "Tradicional",
-      "color": ["Pink", "Rosa-Bebê", "Preto", "Azul", "Laranja"],
-      "size": ["M"],
-      "price": 23.00,
-      "image": "./src/images/cuca.jpg",
-      "quantity": 0
-    },
-    {
-      "name": "Tradicional",
-      "color": ["Pink", "Rosa-Bebê", "Preto", "Azul", "Laranja"],
-      "size": ["G"],
-      "price": 29.00,
-      "image": "./src/images/cuca.jpg",
-      "quantity": 0
-    },
-    
-    
-  ]
-  ;
+    { id: 1, name: 'Abacaxi ao Leite Condensado', price: 17.00, size: ['Pequena, 300g'], image: image1, quantity: 0 },
+    { id: 2, name: 'Abacaxi ao Leite Condensado', price: 23.00, size: ['Media, 450g'], image: image2, quantity: 0 },
+    { id: 3, name: 'Abacaxi ao Leite Condensado', price: 29.00, size: ['Grande, 700g'], image: image3, quantity: 0 },
+    { id: 4, name: 'Chocolate', price: 17.00, size: ['Pequena, 300g'], image: image4, quantity: 0 },
+    { id: 5, name: 'Chocolate', price: 23.00, size: ['Media, 450g'], image: image4, quantity: 0 },
+    { id: 6, name: 'Chocolate', price: 29.00, size: ['Grande, 700g'], image: image4, quantity: 0 },
+    { id: 7, name: 'Coco ao Leite Condensado', price: 17.00, size: ['Pequena, 300g'], image: image4, quantity: 0 },
+    { id: 8, name: 'Coco ao Leite Condensado', price: 23.00, size: ['Media, 450g'], image: image4, quantity: 0 },
+    { id: 9, name: 'Coco ao Leite Condensado', price: 29.00, size: ['Grande, 700g'], image: image4, quantity: 0 },
+    { id: 10, name: 'Doce de Leite', price: 17.00, size: ['Pequena, 300g'], image: image4, quantity: 0 },
+    { id: 11, name: 'Doce de Leite', price: 23.00, size: ['Media, 450g'], image: image4, quantity: 0 },
+    { id: 12, name: 'Doce de Leite', price: 17.00, size: ['Grande, 700g'], image: image4, quantity: 0 },
+    { id: 13, name: 'Goiabada', price: 17.00, size: ['Pequena, 300g'], image: image4, quantity: 0 },
+    { id: 14, name: 'Goiabada', price: 23.00, size: ['Media, 450g'], image: image4, quantity: 0 },
+    { id: 15, name: 'Goiabada', price: 17.00, size: ['Grande, 700g'], image: image4, quantity: 0 },
+    { id: 16, name: 'Uva (sem semnte)', price: 17.00, size: ['Pequena, 300g'], image: image4, quantity: 0 },
+    { id: 17, name: 'Uva (sem semnte)', price: 23.00, size: ['Media, 450g'], image: image4, quantity: 0 },
+    { id: 18, name: 'Uva (sem semnte)', price: 17.00, size: ['Grande, 700g'], image: image4, quantity: 0 },
+    { id: 19, name: 'Tradicional', price: 17.00, size: ['Pequena, 300g'], image: image4, quantity: 0 },
+    { id: 20, name: 'Tradicional', price: 23.00, size: ['Media, 450g'], image: image4, quantity: 0 },
+    { id: 21, name: 'Tradicional', price: 17.00, size: ['Grande, 700g'], image: image4, quantity: 0 },    
+  ];
+
   const [quantity, setQuantity] = useState({});
   const [selectedSize, setSelectedSize] = useState({});
-  const [selectedColor, setSelectedColor] = useState({});
 
-  const handleQuantityChange = (name, e) => {
+  const handleQuantityChange = (id, e) => {
     const value = parseInt(e.target.value);
     if (!isNaN(value)) {
-      setQuantity((prevQuantity) => ({ ...prevQuantity, [name]: value }));
+      setQuantity((prevQuantity) => ({ ...prevQuantity, [id]: value }));
     }
   };
 
-  const handleColorChange = (name, e) => {
+  const handleSizeChange = (id, e) => {
     const value = e.target.value;
-    setSelectedColor((prevSelectedColor) => ({ ...prevSelectedColor, [name]: value }));
-    resetQuantity(name);
-  };  
-
-  const handleSizeChange = (name, e) => {
-    const value = e.target.value;
-    setSelectedSize((prevSelectedSize) => ({ ...prevSelectedSize, [name]: value }));
-    resetQuantity(name);
-  };
-
-  // Function to reset the quantity to 0 for a particular product
-  const resetQuantity = (name) => {
-    setQuantity((prevQuantity) => ({ ...prevQuantity, [name]: 0 }));
+    setSelectedSize((prevSelectedSize) => ({ ...prevSelectedSize, [id]: value }));
   };
 
   return (
@@ -210,54 +52,23 @@ const ProductList = ({ addToCart }) => {
         {products.map((product) => (
           <div className="col-md-6 col-lg-4 mb-4" key={product.name}>
             <div className="card h-100">
-              <div className="card-body">
               <img src={product.image} alt={product.name} className="card-img-top" style={{width: "100%", height: "auto"}} />
-                <h5 className="card-title">{product.name}</h5>
-                <span className="product-price h5">R${product.price.toFixed(2)}</span>
+              <div className="card-body d-flex flex-column">
+                <h3 className="card-title">{product.name}</h3>
+                <span className="product-price h5">${product.price.toFixed(2)}</span>
                 <div className="form-group">
-                  <label htmlFor={`color${product.name}`}>Color</label>
-                  <select 
-                    className="form-control" 
-                    id={`color${product.name}`} 
-                    value={selectedColor[product.name] || product.color[0]} 
-                    onChange={(e) => handleColorChange(product.name, e)}
-                  >
-                    {product.color.map((color) => <option key={color} value={color}>{color}</option>)}
+                  <label htmlFor={`size${product.id}`}>Size</label>
+                  <select className="form-control" id={`size${product.id}`} value={selectedSize[product.id]} onChange={(e) => handleSizeChange(product.id, e)}>
+                    {product.size.map((size) => (
+                      <option key={size} value={size}>{size}</option>
+                    ))}
                   </select>
                 </div>
                 <div className="form-group">
-                  <label htmlFor={`size${product.name}`}>Size</label>
-                  <select 
-                    className="form-control" 
-                    id={`size${product.name}`} 
-                    value={selectedSize[product.name] || product.size[0]} 
-                    onChange={(e) => handleSizeChange(product.name, e)}
-                  >
-                    {product.size.map((size) => <option key={size} value={size}>{size}</option>)}
-                  </select>
+                  <label htmlFor={`quantity${product.id}`}>Quantity</label>
+                  <input type="number" className="form-control" id={`quantity${product.id}`} min="1" value={quantity[product.id] || product.quantity} onChange={(e) => handleQuantityChange(product.id, e)} />
                 </div>
-                <div className="form-group">
-                  <label htmlFor={`quantity${product.name}`}>Quantidade</label>
-                  <input 
-                    type="number" 
-                    className="form-control" 
-                    id={`quantity${product.name}`} 
-                    value={quantity[product.name] || ''}
-                    onChange={(e) => handleQuantityChange(product.name, e)} 
-                  />
-                </div>
-                <button 
-                    className="btn btn-primary" 
-                    onClick={() => addToCart({ 
-                      ...product, 
-                      quantity: quantity[product.name] || 0, 
-                      size: selectedSize[product.name] || product.size[0], 
-                      color: selectedColor[product.name] || product.color[0] 
-                    })}
-                    disabled={!(quantity[product.name] > 0)}
-                  >
-                    Adicionar ao carrinho
-                  </button>
+                <button className="btn btn-primary" onClick={() => addToCart({ ...product, quantity: quantity[product.id] || product.quantity, size: selectedSize[product.id] || product.size[0] })} disabled={(quantity[product.id] || product.quantity) < 1}>Add to cart</button>
               </div>
             </div>
           </div>
@@ -267,8 +78,8 @@ const ProductList = ({ addToCart }) => {
   );
 };
 
+export default ProductList;
+
 ProductList.propTypes = {
   addToCart: PropTypes.func.isRequired,
 };
-
-export default ProductList;
