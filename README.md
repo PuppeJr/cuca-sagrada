@@ -21,3 +21,27 @@ Shopez was built by @puppe1990.
 
 # License
 This project is licensed under the MIT License.
+
+
+# Cuca Sagrada - Aplicativo Web de comércio eletrônico
+Cuca Sagrada é um aplicativo web simples de e-commerce desenvolvido com React que permite aos usuários navegar e comprar produtos e enviar mensagens do Whatsapp com o pedido.
+
+## Características!
+
+
+* Exiba uma lista de produtos com nome, preço, tamanho e imagem
+* Adicione produtos a um carrinho de compras
+* Visualize carrinho de compras com lista de produtos e valor total
+*Mensagem personalizada no WhatsApp com lista de produtos e valor total
+* Design responsivo com Bootstrap
+
+# Uso
+* Para visualizar a lista de produtos, clique no link “Produtos” na barra de navegação.
+* Para adicionar um produto ao carrinho de compras, clique no botão “Adicionar ao carrinho” na página do produto.
+* Para visualizar o carrinho de compras, clique no link “Carrinho” na barra de navegação.
+* Para enviar uma mensagem personalizada do WhatsApp com a lista de produtos e valor total, clique no botão “Mensagem personalizada do WhatsApp” no rodapé.
+# Colaboradores
+Shopez foi construído por @puppe1990.
+
+# Licença
+Este projeto está licenciado sob a licença MIT.
