@@ -72,7 +72,7 @@ const App = () => {
       <ProductList addToCart={addToCart} cart={cart} />
       <Modal show={show} onHide={() => setShow(false)}>
         <Modal.Header closeButton>
-          <Modal.Title>Carrinho</Modal.Title>
+          <Modal.Title>Carrinho de Compras</Modal.Title>
         </Modal.Header>
         <Modal.Body>
           <CartList cart={cart} deleteItem={deleteItem} editQuantity={editQuantity} />
