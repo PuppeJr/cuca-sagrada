@@ -55,9 +55,9 @@ const ProductList = ({ addToCart }) => {
               <img src={product.image} alt={product.name} className="card-img-top" style={{width: "100%", height: "auto"}} />
               <div className="card-body d-flex flex-column">
                 <h3 className="card-title">{product.name}</h3>
-                <span className="product-price h5">${product.price.toFixed(2)}</span>
+                <span className="product-price h5">R${product.price.toFixed(2)}</span>
                 <div className="form-group">
-                  <label htmlFor={`size${product.id}`}>Size</label>
+                  <label htmlFor={`size${product.id}`}>Tamanho</label>
                   <select className="form-control" id={`size${product.id}`} value={selectedSize[product.id]} onChange={(e) => handleSizeChange(product.id, e)}>
                     {product.size.map((size) => (
                       <option key={size} value={size}>{size}</option>
@@ -65,10 +65,10 @@ const ProductList = ({ addToCart }) => {
                   </select>
                 </div>
                 <div className="form-group">
-                  <label htmlFor={`quantity${product.id}`}>Quantity</label>
+                  <label htmlFor={`quantity${product.id}`}>Quantidade</label>
                   <input type="number" className="form-control" id={`quantity${product.id}`} min="1" value={quantity[product.id] || product.quantity} onChange={(e) => handleQuantityChange(product.id, e)} />
                 </div>
-                <button className="btn btn-primary" onClick={() => addToCart({ ...product, quantity: quantity[product.id] || product.quantity, size: selectedSize[product.id] || product.size[0] })} disabled={(quantity[product.id] || product.quantity) < 1}>Add to cart</button>
+                <button className="btn btn-primary" onClick={() => addToCart({ ...product, quantity: quantity[product.id] || product.quantity, size: selectedSize[product.id] || product.size[0] })} disabled={(quantity[product.id] || product.quantity) < 1}>Confirme a(s) Compra(S)</button>
               </div>
             </div>
           </div>
