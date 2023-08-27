@@ -11,12 +11,15 @@ const Header = ({ cart, setShow }) => {
 
   return (
     <header className="bg-dark text-white fixed-top">
-      <div className="container d-flex justify-content-between align-items-center py-3">
-        <div className="company-name h3 mb-0">Shopez</div>
+      <div className="container d-flex justify-content-between align-items-center py-2">
+        <div className="company-name h1 mb-0">Cuca Sagrada</div>
+        <div className="company-name h2 mb-0">Infelizmente Sem Tela-Entrega</div>
+        <div className="company-name h3 mb-0">Faça seu Pedido 24h antes</div>
+        <div className="company-name h3 mb-0">Pagamento no ato ou PIX 51989892020</div>
         <div className="cart text-end">
-          <span className="cart-count me-3">{cart.length} items</span>
+          <span className="cart-count me-3">{cart.length} itens</span>
           <span className="cart-total">${total.toFixed(2)}</span>
-          <button className="btn btn-primary btn-sm" onClick={() => setShow(true)}>View cart</button>
+          <button className="btn btn-primary btn-sm" onClick={() => setShow(true)}>Veja seu pedido</button>
         </div>
       </div>
     </header>
