@@ -23,9 +23,9 @@ function ProductList({ addToCart }) {
     { id: 13, name: 'Goiabada', price: 17.00, size: ['Pequena, 300g'], image: image4, quantity: 0 },
     { id: 14, name: 'Goiabada', price: 23.00, size: ['Media, 450g'], image: image4, quantity: 0 },
     { id: 15, name: 'Goiabada', price: 17.00, size: ['Grande, 700g'], image: image4, quantity: 0 },
-    { id: 16, name: 'Uva (sem semnte)', price: 17.00, size: ['Pequena, 300g'], image: image4, quantity: 0 },
-    { id: 17, name: 'Uva (sem semnte)', price: 23.00, size: ['Media, 450g'], image: image4, quantity: 0 },
-    { id: 18, name: 'Uva (sem semnte)', price: 17.00, size: ['Grande, 700g'], image: image4, quantity: 0 },
+    { id: 16, name: 'Uva (sem semente)', price: 17.00, size: ['Pequena, 300g'], image: image4, quantity: 0 },
+    { id: 17, name: 'Uva (sem semente)', price: 23.00, size: ['Media, 450g'], image: image4, quantity: 0 },
+    { id: 18, name: 'Uva (sem semente)', price: 17.00, size: ['Grande, 700g'], image: image4, quantity: 0 },
     { id: 19, name: 'Tradicional', price: 17.00, size: ['Pequena, 300g'], image: image4, quantity: 0 },
     { id: 20, name: 'Tradicional', price: 23.00, size: ['Media, 450g'], image: image4, quantity: 0 },
     { id: 21, name: 'Tradicional', price: 17.00, size: ['Grande, 700g'], image: image4, quantity: 0 },
@@ -68,7 +68,7 @@ function ProductList({ addToCart }) {
                   <label htmlFor={`quantity${product.id}`}>Quantidade</label>
                   <input type="number" className="form-control" id={`quantity${product.id}`} min="1" value={quantity[product.id] || product.quantity} onChange={(e) => handleQuantityChange(product.id, e)} />
                 </div>
-                <button className="btn btn-primary" onClick={() => addToCart({ ...product, quantity: quantity[product.id] || product.quantity, size: selectedSize[product.id] || product.size[0] })} disabled={(quantity[product.id] || product.quantity) < 1}>Confirme a(s) Compra(S)</button>
+                <button className="btn btn-primary" onClick={() => addToCart({ ...product, quantity: quantity[product.id] || product.quantity, size: selectedSize[product.id] || product.size[0] })} disabled={(quantity[product.id] || product.quantity) < 1}>Confirme a(s) Compra(s)</button>
               </div>
             </div>
           </div>

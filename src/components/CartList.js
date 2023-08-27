@@ -2,6 +2,7 @@
 import React, { useEffect } from 'react';
 import PropTypes from 'prop-types';
 
+
 // Definir um componente funcional chamado CartList que recebe cart, deleteItem e editQuantity como props
 const CartList = ({ cart, deleteItem, editQuantity }) => {
   // Calcular o valor total dos itens no carrinho
