@@ -64,7 +64,7 @@ const App = () => {
     return acc + cur.quantity;
   }, 0);
 
-  const isWhatsAppLinkActive = totalQuantity >= 10;
+  const isWhatsAppLinkActive = totalQuantity >= 0;
 
   return (
     <div className="App">

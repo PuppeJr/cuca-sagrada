@@ -6,7 +6,7 @@ import image3 from '../images/cuca.jpg';
 import image4 from '../images/cuca.jpg';
 
 
-const ProductList = ({ addToCart }) => {
+function ProductList({ addToCart }) {
   const products = [
     { id: 1, name: 'Abacaxi ao Leite Condensado', price: 17.00, size: ['Pequena, 300g'], image: image1, quantity: 0 },
     { id: 2, name: 'Abacaxi ao Leite Condensado', price: 23.00, size: ['Media, 450g'], image: image2, quantity: 0 },
@@ -28,7 +28,7 @@ const ProductList = ({ addToCart }) => {
     { id: 18, name: 'Uva (sem semnte)', price: 17.00, size: ['Grande, 700g'], image: image4, quantity: 0 },
     { id: 19, name: 'Tradicional', price: 17.00, size: ['Pequena, 300g'], image: image4, quantity: 0 },
     { id: 20, name: 'Tradicional', price: 23.00, size: ['Media, 450g'], image: image4, quantity: 0 },
-    { id: 21, name: 'Tradicional', price: 17.00, size: ['Grande, 700g'], image: image4, quantity: 0 },    
+    { id: 21, name: 'Tradicional', price: 17.00, size: ['Grande, 700g'], image: image4, quantity: 0 },
   ];
 
   const [quantity, setQuantity] = useState({});
@@ -52,7 +52,7 @@ const ProductList = ({ addToCart }) => {
         {products.map((product) => (
           <div className="col-md-6 col-lg-4 mb-4" key={product.name}>
             <div className="card h-100">
-              <img src={product.image} alt={product.name} className="card-img-top" style={{width: "100%", height: "auto"}} />
+              <img src={product.image} alt={product.name} className="card-img-top" style={{ width: "100%", height: "auto" }} />
               <div className="card-body d-flex flex-column">
                 <h3 className="card-title">{product.name}</h3>
                 <span className="product-price h5">R${product.price.toFixed(2)}</span>
@@ -76,7 +76,7 @@ const ProductList = ({ addToCart }) => {
       </div>
     </div>
   );
-};
+}
 
 export default ProductList;
 
