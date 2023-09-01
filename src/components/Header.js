@@ -24,7 +24,7 @@ const Header = ({ cart, setShow }) => {
           <button className="btn btn-primary btn-sm" onClick={() => setShow(true)}>Veja seu pedido</button>
         </div>
       
-
+      
       </div>
     </header>
   )

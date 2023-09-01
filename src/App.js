@@ -9,6 +9,7 @@ import CartList from './components/CartList';
 import WhatsAppButton from './components/WhatsAppButton';
 
 
+
 // Componente funcional principal da aplicação
 const App = () => {
   // Estado para armazenar os itens no carrinho de compras
