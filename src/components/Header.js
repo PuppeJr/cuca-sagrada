@@ -15,8 +15,8 @@ const Header = ({ cart, setShow }) => {
     <header className="bg-dark text-white fixed-top">
       <div className="container d-auto justify-content-between align-items-center py-2">
         <div className="company-name h1 mb-0">Cuca Sagrada</div>
-        <div className="company-name h0 mb-0">Sem Tele-Entrega/Pagamento na entrega</div>
-        <div className="company-name h0 mb-0">PIX 51989892020</div>
+        <div className="company-name h0 mb-0">Tele-Entrega/Pagamento na entrega</div>
+        <div className="company-name h0 mb-0">ou Via PIX 51989892020</div>
         <div className="company-name h0 mb-0">Rua Ari Marinho, 27/Higienópolis</div>
         <div className="cart text-end">
           <span className="cart-count me-3">{cart.length} itens</span>
