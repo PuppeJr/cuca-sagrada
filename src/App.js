@@ -11,7 +11,7 @@ import WhatsAppButton from './components/WhatsAppButton';
 
 
 // Componente funcional principal da aplicação
-const App = () => {
+function App() {
   // Estado para armazenar os itens no carrinho de compras
   const [cart, setCart] = useState([]);
   // Estado para controlar a exibição do modal
@@ -19,9 +19,8 @@ const App = () => {
 
   // Função para adicionar um produto ao carrinho
   const addToCart = (product) => {
-    let itemIndex = cart.findIndex((item) => 
-      item.name === product.name && 
-      item.size === product.size && 
+    let itemIndex = cart.findIndex((item) => item.name === product.name &&
+      item.size === product.size &&
       item.color === product.color
     );
 
@@ -36,8 +35,7 @@ const App = () => {
 
   // Função para excluir um item do carrinho
   const deleteItem = (product) => {
-    let itemIndex = cart.findIndex((item) => 
-      item.name === product.name && 
+    let itemIndex = cart.findIndex((item) => item.name === product.name &&
       item.size === product.size &&
       item.color === product.color
     );
@@ -49,8 +47,7 @@ const App = () => {
 
   // Função para editar a quantidade de um item no carrinho
   const editQuantity = (product, newQuantity) => {
-    let itemIndex = cart.findIndex((item) => 
-      item.name === product.name && 
+    let itemIndex = cart.findIndex((item) => item.name === product.name &&
       item.size === product.size &&
       item.color === product.color
     );
@@ -100,20 +97,18 @@ const App = () => {
         </Modal.Footer>
         {/* Renderiza o botão do WhatsApp ou o botão desativado, dependendo da condição */}
         {isWhatsAppLinkActive ? (
-          <WhatsAppButton 
+          <WhatsAppButton
             message={
               // Monta a mensagem a ser enviada via WhatsApp com os itens e o valor total
-              `Olá Cuca Sagrada! Aqui está a minha lista de compras e o valor total:\n` + 
-              `${cart.map((item) => `${item.name} - ${item.color} - ${item.size} - ${item.quantity} - R$${item.price * item.quantity}`).join('\n')}` + 
-              `\nValor Total: R$${totalPrice}`
-            } 
-          />
+              `Olá Cuca Sagrada! Aqui está a minha lista de compras e o valor total:\n` +
+              `${cart.map((item) => `${item.name} - ${item.color} - ${item.size} - ${item.quantity} - R$${item.price * item.quantity}`).join('\n')}` +
+              `\nValor Total: R$${totalPrice}`} />
         ) : (
           <button className="btn btn-secondary" disabled>Mandar mensagem WhatsApp</button>
         )}
       </Modal>
     </div>
   );
-};
+}
 
 export default App;
