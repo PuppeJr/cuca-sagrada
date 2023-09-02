@@ -6,11 +6,6 @@ const WhatsAppButton = ({ message }) => {
 
 
   return (
-    <><div className="company-name h0 mb-0">Temos Tele-Entrega</div><div className="company-name h0 mb-0">Informe o Endereço</div></>
-    
-  )
-
-  return (
     <a href={whatsappLink} className="btn btn-success" target="_blank" rel="noopener noreferrer">
       Mandar mensagem WhatsApp
     </a>
