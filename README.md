@@ -41,7 +41,7 @@ Cuca Sagrada é um aplicativo web simples de e-commerce desenvolvido com React q
 * Para visualizar o carrinho de compras, clique no link “Carrinho” na barra de navegação.
 * Para enviar uma mensagem personalizada do WhatsApp com a lista de produtos e valor total, clique no botão “Mensagem personalizada do WhatsApp” no rodapé.
 # Colaboradores
-Shopez foi construído por @puppe1990.
+Cuca Sagrada foi construído por @PuppeJr.
 
 # Licença
 Este projeto está licenciado sob a licença MIT.
