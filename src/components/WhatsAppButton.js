@@ -17,3 +17,4 @@ export default WhatsAppButton;
 WhatsAppButton.propTypes = {
   message: PropTypes.string.isRequired,
 };
+
