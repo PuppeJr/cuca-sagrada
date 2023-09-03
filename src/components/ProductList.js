@@ -33,6 +33,7 @@ function ProductList({ addToCart }) {
 
   const [quantity, setQuantity] = useState({});
   const [selectedSize, setSelectedSize] = useState({});
+  
 
   const handleQuantityChange = (id, e) => {
     const value = parseInt(e.target.value);
