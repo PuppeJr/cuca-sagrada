@@ -19,16 +19,16 @@ function ProductList({ addToCart }) {
     { id: 9, name: 'Coco ao Leite Condensado', price: 29.00, size: ['Grande, 700g'], image: image4, quantity: 0 },
     { id: 10, name: 'Doce de Leite', price: 17.00, size: ['Pequena, 300g'], image: image4, quantity: 0 },
     { id: 11, name: 'Doce de Leite', price: 23.00, size: ['Media, 450g'], image: image4, quantity: 0 },
-    { id: 12, name: 'Doce de Leite', price: 17.00, size: ['Grande, 700g'], image: image4, quantity: 0 },
+    { id: 12, name: 'Doce de Leite', price: 29.00, size: ['Grande, 700g'], image: image4, quantity: 0 },
     { id: 13, name: 'Goiabada', price: 17.00, size: ['Pequena, 300g'], image: image4, quantity: 0 },
     { id: 14, name: 'Goiabada', price: 23.00, size: ['Media, 450g'], image: image4, quantity: 0 },
-    { id: 15, name: 'Goiabada', price: 17.00, size: ['Grande, 700g'], image: image4, quantity: 0 },
+    { id: 15, name: 'Goiabada', price: 29.00, size: ['Grande, 700g'], image: image4, quantity: 0 },
     { id: 16, name: 'Uva (sem semente)', price: 17.00, size: ['Pequena, 300g'], image: image4, quantity: 0 },
     { id: 17, name: 'Uva (sem semente)', price: 23.00, size: ['Media, 450g'], image: image4, quantity: 0 },
-    { id: 18, name: 'Uva (sem semente)', price: 17.00, size: ['Grande, 700g'], image: image4, quantity: 0 },
+    { id: 18, name: 'Uva (sem semente)', price: 29.00, size: ['Grande, 700g'], image: image4, quantity: 0 },
     { id: 19, name: 'Tradicional', price: 17.00, size: ['Pequena, 300g'], image: image4, quantity: 0 },
     { id: 20, name: 'Tradicional', price: 23.00, size: ['Media, 450g'], image: image4, quantity: 0 },
-    { id: 21, name: 'Tradicional', price: 17.00, size: ['Grande, 700g'], image: image4, quantity: 0 },
+    { id: 21, name: 'Tradicional', price: 29.00, size: ['Grande, 700g'], image: image4, quantity: 0 },
   ];
 
   const [quantity, setQuantity] = useState({});
