@@ -5,14 +5,14 @@ const WhatsAppButton = ({ message }) => {
   const whatsappLink = `https://wa.me/+5551989892020?text=${encodeURIComponent(message)}`;
 
 
-  return (
-    <a href={whatsappLink} className="btn btn-success" target="_blank" rel="noopener noreferrer">
-{`Clique "AQUI" para confirmar o pedido`}
-<Br/>
-{`Se Tele Entrega Endereço/Telefone`}
-    </a>
-  );
-};
+    return ( 
+     <a href={whatsappLink} className="btn btn-success" target="_blank" rel="noopener noreferrer"> 
+ {`Clique "AQUI" para confirmar o pedido`} 
+ <Br/> 
+ {`Se Tele Entrega Endereço/Telefone`} 
+     </a> 
+   ); 
+ };
 
 export default WhatsAppButton;
 
