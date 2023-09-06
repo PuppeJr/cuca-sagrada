@@ -7,7 +7,8 @@ const WhatsAppButton = ({ message }) => {
 
   return (
     <a href={whatsappLink} className="btn btn-success" target="_blank" rel="noopener noreferrer">
- Clique "AQUI" para confirmar o pedido
+{`Clique "AQUI" para confirmar o pedido`}
+{`Se Tele Entrega Endereço/Telefone`}
     </a>
   );
 };
