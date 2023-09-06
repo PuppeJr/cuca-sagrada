@@ -8,10 +8,9 @@ const WhatsAppButton = ({ message }) => {
   return (
     <a href={whatsappLink} className="btn btn-success" target="_blank" rel="noopener noreferrer">
  Clique "AQUI" para confirmar o pedido
- <Text style={styles.paragraph}>
-          {`Outra maneira para definir 
+ {`Outra maneira para definir 
 texto multilinha`}
-        </Text>
+        
     </a>
   );
 };
