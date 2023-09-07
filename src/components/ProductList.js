@@ -30,8 +30,8 @@ function ProductList({ addToCart }) {
     { id: 20, name: 'Tradicional', price: 23.00, size: ['Media, 450g'], image: image4, quantity: 0 },
     { id: 21, name: 'Tradicional', price: 29.00, size: ['Grande, 700g'], image: image4, quantity: 0 },
     { id: 22, name: 'Banana & Canela', price: 17.00, size: ['Pequena, 300g'], image: image4, quantity: 0 },
-    { id: 20, name: 'Banana & Canela', price: 23.00, size: ['Media, 450g'], image: image4, quantity: 0 },
-    { id: 21, name: 'Banana & Canela', price: 29.00, size: ['Grande, 700g'], image: image4, quantity: 0 },
+    { id: 23, name: 'Banana & Canela', price: 23.00, size: ['Media, 450g'], image: image4, quantity: 0 },
+    { id: 24, name: 'Banana & Canela', price: 29.00, size: ['Grande, 700g'], image: image4, quantity: 0 },
   ];
 
   const [quantity, setQuantity] = useState({});
