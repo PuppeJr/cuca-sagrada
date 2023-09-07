@@ -72,7 +72,7 @@ function ProductList({ addToCart }) {
                   <label htmlFor={`quantity${product.id}`}>Quantidade</label>
                   <input type="number" className="form-control" id={`quantity${product.id}`} min="1" value={quantity[product.id] || product.quantity} onChange={(e) => handleQuantityChange(product.id, e)} />
                 </div>
-                <button className="btn btn-primary" onClick={() => addToCart({ ...product, quantity: quantity[product.id] || product.quantity, size: selectedSize[product.id] || product.size[0] })} disabled={(quantity[product.id] || product.quantity) < 1}>Confirme a(s) Compra(s)</button>
+                <button className="btn btn-primary" onClick={() => addToCart({ ...product, quantity: quantity[product.id] || product.quantity, size: selectedSize[product.id] || product.size[0] })} disabled={(quantity[product.id] || product.quantity) < 1}>Adicione ao Carrinho</button>
               </div>
             </div>
           </div>
