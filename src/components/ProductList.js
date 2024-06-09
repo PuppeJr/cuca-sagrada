@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
-import image1 from '../images/cuca.jpg';
 import image2 from '../images/cuca.jpg';
-import image3 from '../images/cuca.jpg';
 import image4 from '../images/cuca.jpg';
 
 
