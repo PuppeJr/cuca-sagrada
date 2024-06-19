@@ -1,5 +1,5 @@
-# Cuca Sagrada- E-commerce Web Application
-Cuca Sagrada is a simple e-commerce web application built with React that allows users to browse and purchase products and send Whatsapp message with the order.
+#E-commerce Web Application
+A simple e-commerce web application built with React that allows users to browse and purchase products and send Whatsapp message with the order.
 
 ## Features!
 
@@ -29,7 +29,7 @@ Cuca Sagrada é um aplicativo web simples de e-commerce desenvolvido com React q
 ## Características!
 
 
-* Exiba uma lista de produtos com nome, preço, tamanho e imagem
+* Exiba uma lista de produtos com nome, preço e imagem
 * Adicione produtos a um carrinho de compras
 * Visualize carrinho de compras com lista de produtos e valor total
 *Mensagem personalizada no WhatsApp com lista de produtos e valor total
