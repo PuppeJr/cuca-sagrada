@@ -9,12 +9,11 @@ function ProductList({ addToCart }) {
     
     { id: 1, name: 'Abacaxi ao Leite Condensado', price: 25.00, size: ['Tamanho Único, 450g'], image: image2, quantity: 0 },
     { id: 2, name: 'Banana & Canela', price: 25.00, size: ['Tamanho Único, 450g'], image: image4, quantity: 0 },
-    { id: 3, name: 'Chocolate', price: 25.00, size: ['Tamanho Único, 450g'], image: image4, quantity: 0 },
-    { id: 4, name: 'Coco ao Leite Condensado', price: 25.00, size: ['Tamanho Único, 450g'], image: image4, quantity: 0 },
-    { id: 5, name: 'Doce de Leite', price: 25.00, size: ['Tamanho Único, 450g'], image: image4, quantity: 0 },
-    { id: 6, name: 'Goiabada', price: 25.00, size: ['Tamanho Único, 450g'], image: image4, quantity: 0 },
-    { id: 7, name: 'Tradicional', price: 25.00, size: ['Tamanho Único, 450g'], image: image4, quantity: 0 },
-    { id: 8, name: 'Uva (sem semente)', price: 25.00, size: ['Tamanho Único, 450g'], image: image4, quantity: 0 },
+    { id: 3, name: 'Coco ao Leite Condensado', price: 25.00, size: ['Tamanho Único, 450g'], image: image4, quantity: 0 },
+    { id: 4, name: 'Doce de Leite', price: 25.00, size: ['Tamanho Único, 450g'], image: image4, quantity: 0 },
+    { id: 5, name: 'Goiabada', price: 25.00, size: ['Tamanho Único, 450g'], image: image4, quantity: 0 },
+    { id: 6, name: 'Tradicional', price: 25.00, size: ['Tamanho Único, 450g'], image: image4, quantity: 0 },
+    { id: 7, name: 'Uva (sem semente)', price: 25.00, size: ['Tamanho Único, 450g'], image: image4, quantity: 0 },
     
 
   ];
